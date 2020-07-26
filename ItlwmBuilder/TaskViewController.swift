@@ -1,6 +1,6 @@
 //
 //  TaskViewController.swift
-//  itlwmbuild
+//  itlwmbuilder
 //
 //  Created by Lunjie Li on 2020-07-26.
 //  Copyright © 2020 Lunjie Li. All rights reserved.
@@ -52,22 +52,23 @@ class TaskViewController: NSViewController {
             progressBar.startAnimation(self)
             if versionList.titleOfSelectedItem == "itlwm" {
                 if withHeliPortChecked.state == NSControl.StateValue.on {
+                    runitlwmScript(arguments)
+                } else {
                     runitlwmWithoutHeliPortScript(arguments)
-                }else{
-        runitlwmScript(arguments)
-            }
-                
+                }
             }
             if versionList.titleOfSelectedItem == "itlwmx" {
                 if withHeliPortChecked.state == NSControl.StateValue.on {
-                runitlwmWithoutHeliPortScript(arguments)
-                } else
-                {
-                runitlwmxScript(arguments)
+                    runitlwmxScript(arguments)
+                } else {
+                    runitlwmxWithoutHeliPortScript(arguments)
                 }
             }
         }
     }
+    
+    
+    
     
     @IBAction func stopTask(_ sender: Any) {
         stopButton.isEnabled = false
@@ -110,8 +111,8 @@ class TaskViewController: NSViewController {
         isRunning = true
         let taskQueue = DispatchQueue.global(qos: DispatchQoS.QoSClass.background)
         taskQueue.async {
-            guard let path = Bundle.main.path(forResource: "itlwm_without_heliport",ofType:"command") else {
-                print("Unable to locate itlwm_without_heliport.command")
+            guard let path = Bundle.main.path(forResource: "noheliport",ofType:"command") else {
+                print("noheliport.command")
                 return
             }
             self.buildTask = Process()
@@ -166,8 +167,8 @@ class TaskViewController: NSViewController {
         isRunning = true
         let taskQueue = DispatchQueue.global(qos: DispatchQoS.QoSClass.background)
         taskQueue.async {
-            guard let path = Bundle.main.path(forResource: "itlwmx_without_heliport",ofType:"command") else {
-                print("Unable to locate itlwmx_without_heliport.command")
+            guard let path = Bundle.main.path(forResource: "noheliportx",ofType:"command") else {
+                print("Unable to locate noheliportx.command")
                 return
             }
             self.buildTask = Process()

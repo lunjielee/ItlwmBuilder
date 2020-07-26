@@ -96,4 +96,3 @@ else
   copyBuildProducts
 #  rm -rf "${BUILD_DIR}/"
 fi
-

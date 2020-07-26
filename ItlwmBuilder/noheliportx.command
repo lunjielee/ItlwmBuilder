@@ -48,7 +48,6 @@ builditlwm() {
   xcodebuild -scheme itlwmx -sdk macosx10.15 BUILD_DIR=${BUILD_DIR}/itlwm/build build >/dev/null || exit 1
 }
 
-
 copyBuildProducts() {
   cp -r "${BUILD_DIR}/itlwm/build/Debug/itlwmx.kext" "${FINAL_DIR}"
   echo "All Done!..."
@@ -70,9 +69,7 @@ git clone https://github.com/OpenIntelWireless/itlwm.git >/dev/null || exit 1
 cd "${BUILD_DIR}/itlwm"
 echo "Compiling the latest commited Debug version of itlwmx..."
 builditlwm
-echo "itlwmx Debug Without HeliPort Completed..."
-
-
+echo "itlwmx Without HeliPort Completed..."
 
 if [ ! -d "${FINAL_DIR}" ]; then
   mkdir -p "${FINAL_DIR}"
@@ -83,3 +80,4 @@ else
   copyBuildProducts
 #  rm -rf "${BUILD_DIR}/"
 fi
+

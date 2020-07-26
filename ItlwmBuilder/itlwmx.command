@@ -75,7 +75,7 @@ cd "${BUILD_DIR}/itlwm"
 echo "Compiling the latest commited Debug version of itlwmx..."
 builditlwm
 echo "itlwmx Debug Completed..."
-echo""
+echo ""
 
 cd "${BUILD_DIR}"
 

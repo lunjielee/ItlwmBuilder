@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		338FC4CA24CE05ED007CE82F /* itlwm_without_heliport.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4C924CE05ED007CE82F /* itlwm_without_heliport.command */; };
-		338FC4CC24CE0647007CE82F /* itlwmx_without_heliport.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4CB24CE0647007CE82F /* itlwmx_without_heliport.command */; };
+		335A742D24CE1E9C00346892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A742C24CE1E9C00346892 /* Main.storyboard */; };
+		338FC4CA24CE05ED007CE82F /* noheliport.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4C924CE05ED007CE82F /* noheliport.command */; };
+		338FC4CC24CE0647007CE82F /* noheliportx.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4CB24CE0647007CE82F /* noheliportx.command */; };
 		33927B3E24CDF40600581435 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33927B3D24CDF40600581435 /* TaskViewController.swift */; };
 		33927B4024CDF40600581435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33927B3F24CDF40600581435 /* AppDelegate.swift */; };
 		33927B4224CDF40700581435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33927B4124CDF40700581435 /* Assets.xcassets */; };
-		33927B6F24CDF61600581435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33927B6E24CDF61600581435 /* Main.storyboard */; };
 		33927B7224CDF73700581435 /* itlwm.command in Resources */ = {isa = PBXBuildFile; fileRef = 33927B7024CDF73700581435 /* itlwm.command */; };
 		33927B7324CDF73700581435 /* itlwmx.command in Resources */ = {isa = PBXBuildFile; fileRef = 33927B7124CDF73700581435 /* itlwmx.command */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		338FC4C924CE05ED007CE82F /* itlwm_without_heliport.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = itlwm_without_heliport.command; sourceTree = "<group>"; };
-		338FC4CB24CE0647007CE82F /* itlwmx_without_heliport.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = itlwmx_without_heliport.command; sourceTree = "<group>"; };
-		33927B3A24CDF40600581435 /* itlwmbuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itlwmbuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335A742C24CE1E9C00346892 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		338FC4C924CE05ED007CE82F /* noheliport.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = noheliport.command; sourceTree = "<group>"; };
+		338FC4CB24CE0647007CE82F /* noheliportx.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = noheliportx.command; sourceTree = "<group>"; };
+		33927B3A24CDF40600581435 /* ItlwmBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItlwmBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33927B3D24CDF40600581435 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		33927B3F24CDF40600581435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33927B4124CDF40700581435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33927B4924CDF40700581435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33927B4A24CDF40700581435 /* itlwmbuild.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = itlwmbuild.entitlements; sourceTree = "<group>"; };
-		33927B6E24CDF61600581435 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		33927B4A24CDF40700581435 /* itlwmbuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = itlwmbuilder.entitlements; sourceTree = "<group>"; };
 		33927B7024CDF73700581435 /* itlwm.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = itlwm.command; sourceTree = "<group>"; };
 		33927B7124CDF73700581435 /* itlwmx.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = itlwmx.command; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 		33927B3124CDF40600581435 = {
 			isa = PBXGroup;
 			children = (
-				33927B3C24CDF40600581435 /* itlwmbuild */,
+				33927B3C24CDF40600581435 /* ItlwmBuilder */,
 				33927B3B24CDF40600581435 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,34 +53,34 @@
 		33927B3B24CDF40600581435 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33927B3A24CDF40600581435 /* itlwmbuilder.app */,
+				33927B3A24CDF40600581435 /* ItlwmBuilder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33927B3C24CDF40600581435 /* itlwmbuild */ = {
+		33927B3C24CDF40600581435 /* ItlwmBuilder */ = {
 			isa = PBXGroup;
 			children = (
 				33927B3D24CDF40600581435 /* TaskViewController.swift */,
 				33927B3F24CDF40600581435 /* AppDelegate.swift */,
 				33927B7024CDF73700581435 /* itlwm.command */,
-				338FC4C924CE05ED007CE82F /* itlwm_without_heliport.command */,
+				338FC4C924CE05ED007CE82F /* noheliport.command */,
 				33927B7124CDF73700581435 /* itlwmx.command */,
-				338FC4CB24CE0647007CE82F /* itlwmx_without_heliport.command */,
+				338FC4CB24CE0647007CE82F /* noheliportx.command */,
 				33927B4124CDF40700581435 /* Assets.xcassets */,
 				33927B4924CDF40700581435 /* Info.plist */,
-				33927B6E24CDF61600581435 /* Main.storyboard */,
-				33927B4A24CDF40700581435 /* itlwmbuild.entitlements */,
+				335A742C24CE1E9C00346892 /* Main.storyboard */,
+				33927B4A24CDF40700581435 /* itlwmbuilder.entitlements */,
 			);
-			path = itlwmbuild;
+			path = ItlwmBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33927B3924CDF40600581435 /* itlwmbuilder */ = {
+		33927B3924CDF40600581435 /* ItlwmBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33927B6324CDF40800581435 /* Build configuration list for PBXNativeTarget "itlwmbuilder" */;
+			buildConfigurationList = 33927B6324CDF40800581435 /* Build configuration list for PBXNativeTarget "ItlwmBuilder" */;
 			buildPhases = (
 				33927B3624CDF40600581435 /* Sources */,
 				33927B3724CDF40600581435 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = itlwmbuilder;
+			name = ItlwmBuilder;
 			productName = itlwmbuild;
-			productReference = 33927B3A24CDF40600581435 /* itlwmbuilder.app */;
+			productReference = 33927B3A24CDF40600581435 /* ItlwmBuilder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33927B3524CDF40600581435 /* Build configuration list for PBXProject "itlwmbuilder" */;
+			buildConfigurationList = 33927B3524CDF40600581435 /* Build configuration list for PBXProject "ItlwmBuilder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33927B3924CDF40600581435 /* itlwmbuilder */,
+				33927B3924CDF40600581435 /* ItlwmBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -133,12 +133,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33927B6F24CDF61600581435 /* Main.storyboard in Resources */,
 				33927B7224CDF73700581435 /* itlwm.command in Resources */,
-				338FC4CC24CE0647007CE82F /* itlwmx_without_heliport.command in Resources */,
+				338FC4CC24CE0647007CE82F /* noheliportx.command in Resources */,
 				33927B7324CDF73700581435 /* itlwmx.command in Resources */,
+				335A742D24CE1E9C00346892 /* Main.storyboard in Resources */,
 				33927B4224CDF40700581435 /* Assets.xcassets in Resources */,
-				338FC4CA24CE05ED007CE82F /* itlwm_without_heliport.command in Resources */,
+				338FC4CA24CE05ED007CE82F /* noheliport.command in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,20 +274,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = itlwmbuild/itlwmbuild.entitlements;
+				CODE_SIGN_ENTITLEMENTS = itlwmbuilder/itlwmbuilder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DUF42MYZ68;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = itlwmbuild/Info.plist;
+				INFOPLIST_FILE = itlwmbuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.llj.itlwmbuild;
+				PRODUCT_BUNDLE_IDENTIFIER = com.llj.itlwmbuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -296,20 +298,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = itlwmbuild/itlwmbuild.entitlements;
+				CODE_SIGN_ENTITLEMENTS = itlwmbuilder/itlwmbuilder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DUF42MYZ68;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = itlwmbuild/Info.plist;
+				INFOPLIST_FILE = itlwmbuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.llj.itlwmbuild;
+				PRODUCT_BUNDLE_IDENTIFIER = com.llj.itlwmbuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -317,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33927B3524CDF40600581435 /* Build configuration list for PBXProject "itlwmbuilder" */ = {
+		33927B3524CDF40600581435 /* Build configuration list for PBXProject "ItlwmBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33927B6124CDF40800581435 /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33927B6324CDF40800581435 /* Build configuration list for PBXNativeTarget "itlwmbuilder" */ = {
+		33927B6324CDF40800581435 /* Build configuration list for PBXNativeTarget "ItlwmBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33927B6424CDF40800581435 /* Debug */,

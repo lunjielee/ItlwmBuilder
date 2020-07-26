@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.2"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="OCBuilder" id="1Xt-HY-uBw">
+                            <menuItem title="ItlwmBuilder" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="OCBuilder" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="ItlwmBuilder" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About OCBuilder" id="5kV-Vb-QxS">
+                                        <menuItem title="About ItlwmBuilder" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -36,7 +35,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide OCBuilder" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide ItlwmBuilder" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -54,7 +53,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit OCBuilder" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit ItlwmBuilder" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -667,7 +666,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="OCBuilder Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="ItlwmBuilder Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -681,7 +680,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="OCBuilder" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ItlwmBuilder" customModuleProvider="target"/>
                 <customObject id="tY2-jn-N0G" customClass="SUUpdater"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -692,7 +691,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="OCBuilder" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="ItlwmBuilder" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -712,7 +711,7 @@
         <!--Task View Controller-->
         <scene sceneID="Brf-vc-7xp">
             <objects>
-                <viewController id="NNW-f1-Qqb" customClass="TaskViewController" customModule="OCBuilder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NNW-f1-Qqb" customClass="TaskViewController" customModule="ItlwmBuilder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="eZs-lk-K1D">
                         <rect key="frame" x="0.0" y="0.0" width="721" height="700"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -720,7 +719,7 @@
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rNC-bp-Sxq">
                                 <rect key="frame" x="183" y="580" width="355" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="opencorebanner" id="6e5-CI-2kV"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="banner" id="6e5-CI-2kV"/>
                             </imageView>
                             <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="hoF-jf-h8v">
                                 <rect key="frame" x="20" y="562" width="681" height="5"/>
@@ -826,14 +825,14 @@
                                 <rect key="frame" x="18" y="20" width="685" height="32"/>
                                 <textFieldCell key="cell" selectable="YES" alignment="center" id="l6y-cN-AVf">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">OpenCore Builder will download Drivers and Support Package direct from the Github Repo and save to a folder in a location of your choice. You will need to update the EFI yourself</string>
+                                    <string key="title">Itlwm Builder will download Drivers direct from the Github Repo and save to a folder in a location of your choice. You will need to update the kext yourself !!!</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HDL-eS-nGL">
-                                <rect key="frame" x="216" y="530" width="98" height="18"/>
-                                <buttonCell key="cell" type="check" title="With Kexts?" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="zaT-86-saK">
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HDL-eS-nGL" userLabel="withHeliPortChecked">
+                                <rect key="frame" x="216" y="530" width="113" height="18"/>
+                                <buttonCell key="cell" type="check" title="With Heliport?" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="zaT-86-saK">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -884,7 +883,7 @@
                         <outlet property="progressBar" destination="qmd-Ur-GHE" id="60c-n9-to0"/>
                         <outlet property="stopButton" destination="URX-YK-IZV" id="595-JA-qZ9"/>
                         <outlet property="versionList" destination="NAi-jy-jeW" id="zUA-tO-aeO"/>
-                        <outlet property="withKextsChecked" destination="HDL-eS-nGL" id="etN-Jt-aSZ"/>
+                        <outlet property="withHeliPortChecked" destination="HDL-eS-nGL" id="80S-yB-NQZ"/>
                     </connections>
                 </viewController>
                 <customObject id="bYY-Af-pVN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -893,6 +892,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="opencorebanner" width="1027" height="233"/>
+        <image name="banner" width="355" height="100"/>
     </resources>
 </document>
