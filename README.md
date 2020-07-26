@@ -7,6 +7,6 @@ You can install Cocoapods using this command
 sudo gem install cocoapods
 ```
 
-## Acknowledge
+## Credit
 
 - [Pavo-IM/ocbuilder](https://github.com/Pavo-IM/ocbuilder)
