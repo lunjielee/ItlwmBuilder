@@ -9,124 +9,124 @@
 "1Xt-HY-uBw.title" = "ItlwmBuilder";
 
 /* Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; */
-"1b7-l0-nxx.title" = "Find";
+"1b7-l0-nxx.title" = "查找";
 
 /* Class = "NSMenuItem"; title = "Lower"; ObjectID = "1tx-W0-xDw"; */
-"1tx-W0-xDw.title" = "Lower";
+"1tx-W0-xDw.title" = "降低";
 
 /* Class = "NSMenuItem"; title = "Raise"; ObjectID = "2h7-ER-AoG"; */
-"2h7-ER-AoG.title" = "Raise";
+"2h7-ER-AoG.title" = "升高";
 
 /* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "2oI-Rn-ZJC"; */
-"2oI-Rn-ZJC.title" = "Transformations";
+"2oI-Rn-ZJC.title" = "转换";
 
 /* Class = "NSMenu"; title = "Spelling"; ObjectID = "3IN-sU-3Bg"; */
-"3IN-sU-3Bg.title" = "Spelling";
+"3IN-sU-3Bg.title" = "拼写";
 
 /* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "3Om-Ey-2VK"; */
-"3Om-Ey-2VK.title" = "Use Default";
+"3Om-Ey-2VK.title" = "使用默认";
 
 /* Class = "NSMenu"; title = "Speech"; ObjectID = "3rS-ZA-NoH"; */
-"3rS-ZA-NoH.title" = "Speech";
+"3rS-ZA-NoH.title" = "语音";
 
 /* Class = "NSMenuItem"; title = "Tighten"; ObjectID = "46P-cB-AYj"; */
-"46P-cB-AYj.title" = "Tighten";
+"46P-cB-AYj.title" = "紧排";
 
 /* Class = "NSMenuItem"; title = "Find"; ObjectID = "4EN-yA-p0u"; */
-"4EN-yA-p0u.title" = "Find";
+"4EN-yA-p0u.title" = "查找";
 
 /* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
-"4J7-dP-txa.title" = "Enter Full Screen";
+"4J7-dP-txa.title" = "进入全屏幕";
 
 /* Class = "NSMenuItem"; title = "Quit ItlwmBuilder"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Quit ItlwmBuilder";
+"4sb-4s-VLi.title" = "退出ItlwmBuilder";
 
 /* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
-"5QF-Oa-p0T.title" = "Edit";
+"5QF-Oa-p0T.title" = "编辑";
 
 /* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "5Vv-lz-BsD"; */
-"5Vv-lz-BsD.title" = "Copy Style";
+"5Vv-lz-BsD.title" = "拷贝样式";
 
 /* Class = "NSMenuItem"; title = "About ItlwmBuilder"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About ItlwmBuilder";
+"5kV-Vb-QxS.title" = "关于ItlwmBuilder";
 
 /* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
-"6dh-zS-Vam.title" = "Redo";
+"6dh-zS-Vam.title" = "重做";
 
 /* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "78Y-hA-62v"; */
-"78Y-hA-62v.title" = "Correct Spelling Automatically";
+"78Y-hA-62v.title" = "自动纠正拼写";
 
 /* Class = "NSMenu"; title = "Writing Direction"; ObjectID = "8mr-sm-Yjd"; */
-"8mr-sm-Yjd.title" = "Writing Direction";
+"8mr-sm-Yjd.title" = "书写方向";
 
 /* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "9ic-FL-obx"; */
-"9ic-FL-obx.title" = "Substitutions";
+"9ic-FL-obx.title" = "替换";
 
 /* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "9yt-4B-nSM"; */
-"9yt-4B-nSM.title" = "Smart Copy/Paste";
+"9yt-4B-nSM.title" = "智能拷贝/粘贴";
 
 /* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
 "AYu-sK-qS6.title" = "Main Menu";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
-"BOF-NM-1cW.title" = "Preferences…";
+"BOF-NM-1cW.title" = "偏好设置…";
 
 /* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "BgM-ve-c93"; */
-"BgM-ve-c93.title" = "\tLeft to Right";
+"BgM-ve-c93.title" = "\t从左到右";
 
 /* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "Bw7-FT-i3A"; */
-"Bw7-FT-i3A.title" = "Save As…";
+"Bw7-FT-i3A.title" = "储存为…";
 
 /* Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; */
-"DVo-aG-piG.title" = "Close";
+"DVo-aG-piG.title" = "关闭";
 
 /* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "Dv1-io-Yv7"; */
-"Dv1-io-Yv7.title" = "Spelling and Grammar";
+"Dv1-io-Yv7.title" = "拼写和语法";
 
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
-"F2S-fz-NVQ.title" = "Help";
+"F2S-fz-NVQ.title" = "帮助";
 
 /* Class = "NSMenuItem"; title = "ItlwmBuilder Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "ItlwmBuilder Help";
+"FKE-Sm-Kum.title" = "ItlwmBuilder帮助";
 
 /* Class = "NSMenuItem"; title = "Text"; ObjectID = "Fal-I4-PZk"; */
-"Fal-I4-PZk.title" = "Text";
+"Fal-I4-PZk.title" = "文本";
 
 /* Class = "NSMenu"; title = "Substitutions"; ObjectID = "FeM-D8-WVr"; */
-"FeM-D8-WVr.title" = "Substitutions";
+"FeM-D8-WVr.title" = "替换";
 
 /* Class = "NSMenuItem"; title = "Bold"; ObjectID = "GB9-OM-e27"; */
-"GB9-OM-e27.title" = "Bold";
+"GB9-OM-e27.title" = "粗体";
 
 /* Class = "NSMenu"; title = "Format"; ObjectID = "GEO-Iw-cKr"; */
-"GEO-Iw-cKr.title" = "Format";
+"GEO-Iw-cKr.title" = "格式";
 
 /* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "GUa-eO-cwY"; */
-"GUa-eO-cwY.title" = "Use Default";
+"GUa-eO-cwY.title" = "使用默认";
 
 /* Class = "NSMenuItem"; title = "Font"; ObjectID = "Gi5-1S-RQB"; */
-"Gi5-1S-RQB.title" = "Font";
+"Gi5-1S-RQB.title" = "字体";
 
 /* Class = "NSMenuItem"; title = "Writing Direction"; ObjectID = "H1b-Si-o9J"; */
-"H1b-Si-o9J.title" = "Writing Direction";
+"H1b-Si-o9J.title" = "书写方向";
 
 /* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
-"H8h-7b-M4v.title" = "View";
+"H8h-7b-M4v.title" = "显示";
 
 /* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "HFQ-gK-NFA"; */
-"HFQ-gK-NFA.title" = "Text Replacement";
+"HFQ-gK-NFA.title" = "文本替换";
 
 /* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "HFo-cy-zxI"; */
-"HFo-cy-zxI.title" = "Show Spelling and Grammar";
+"HFo-cy-zxI.title" = "显示拼写和语法";
 
 /* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
-"HyV-fh-RgO.title" = "View";
+"HyV-fh-RgO.title" = "显示";
 
 /* Class = "NSMenuItem"; title = "Subscript"; ObjectID = "I0S-gh-46l"; */
 "I0S-gh-46l.title" = "Subscript";
 
 /* Class = "NSMenuItem"; title = "Open…"; ObjectID = "IAo-SY-fd9"; */
-"IAo-SY-fd9.title" = "Open…";
+"IAo-SY-fd9.title" = "打开…";
 
 /* Class = "NSWindow"; title = "ItlwmBuilder"; ObjectID = "IQv-IB-iLA"; */
 "IQv-IB-iLA.title" = "ItlwmBuilder";
@@ -240,7 +240,7 @@
 "YGs-j5-SAR.title" = "\tDefault";
 
 /* Class = "NSTextFieldCell"; title = "Location to where you would like to save to Completed Builds folder."; ObjectID = "YRs-Bn-4uq"; */
-"YRs-Bn-4uq.title" = "Location to where you would like to save to Completed Builds folder.";
+"YRs-Bn-4uq.title" = "选择想要储存的地方.";
 
 /* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "Ynk-f8-cLZ"; */
 "Ynk-f8-cLZ.title" = "Start Speaking";
@@ -270,7 +270,7 @@
 "bgn-CT-cEk.title" = "Show Colors";
 
 /* Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; */
-"bib-Uj-vzu.title" = "File";
+"bib-Uj-vzu.title" = "文件";
 
 /* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "buJ-ug-pKt"; */
 "buJ-ug-pKt.title" = "Use Selection for Find";
@@ -297,7 +297,7 @@
 "d9c-me-L2H.title" = "Text";
 
 /* Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; */
-"dMs-cI-mzQ.title" = "File";
+"dMs-cI-mzQ.title" = "文件";
 
 /* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
 "dRJ-4n-Yzg.title" = "Undo";
@@ -336,7 +336,7 @@
 "kIP-vf-haE.title" = "Show Sidebar";
 
 /* Class = "NSTextFieldCell"; title = "Itlwm Builder will download Drivers direct from the Github Repo and save to a folder in a location of your choice. You will need to update the kext yourself !!!"; ObjectID = "l6y-cN-AVf"; */
-"l6y-cN-AVf.title" = "Itlwm Builder will download Drivers direct from the Github Repo and save to a folder in a location of your choice. You will need to update the kext yourself !!!";
+"l6y-cN-AVf.title" = "Itlwm Builder会从Github自动下载源码并且编译储存到你所选择的目录. 注意 !!!你需要手动替换kext为编译后的版本";
 
 /* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "mK6-2p-4JG"; */
 "mK6-2p-4JG.title" = "Check Grammar With Spelling";
@@ -378,7 +378,7 @@
 "tRr-pd-1PS.title" = "Data Detectors";
 
 /* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "tXI-mr-wws"; */
-"tXI-mr-wws.title" = "Open Recent";
+"tXI-mr-wws.title" = "打开最近使用";
 
 /* Class = "NSMenu"; title = "Kern"; ObjectID = "tlD-Oa-oAM"; */
 "tlD-Oa-oAM.title" = "Kern";
@@ -423,4 +423,4 @@
 "z6F-FW-3nz.title" = "Show Substitutions";
 
 /* Class = "NSButtonCell"; title = "With Heliport?"; ObjectID = "zaT-86-saK"; */
-"zaT-86-saK.title" = "With Heliport?";
+"zaT-86-saK.title" = "编译Heliport吗?";
