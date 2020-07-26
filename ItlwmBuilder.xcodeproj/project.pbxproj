@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331D688E24CE3DF600ABDD42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 331D688D24CE3DF600ABDD42 /* README.md */; };
 		335A742D24CE1E9C00346892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A742C24CE1E9C00346892 /* Main.storyboard */; };
 		338FC4CA24CE05ED007CE82F /* noheliport.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4C924CE05ED007CE82F /* noheliport.command */; };
 		338FC4CC24CE0647007CE82F /* noheliportx.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4CB24CE0647007CE82F /* noheliportx.command */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		331D688D24CE3DF600ABDD42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		335A742C24CE1E9C00346892 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		338FC4C924CE05ED007CE82F /* noheliport.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = noheliport.command; sourceTree = "<group>"; };
 		338FC4CB24CE0647007CE82F /* noheliportx.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = noheliportx.command; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		33927B3124CDF40600581435 = {
 			isa = PBXGroup;
 			children = (
+				331D688D24CE3DF600ABDD42 /* README.md */,
 				33927B3C24CDF40600581435 /* ItlwmBuilder */,
 				33927B3B24CDF40600581435 /* Products */,
 			);
@@ -136,6 +139,7 @@
 				33927B7224CDF73700581435 /* itlwm.command in Resources */,
 				338FC4CC24CE0647007CE82F /* noheliportx.command in Resources */,
 				33927B7324CDF73700581435 /* itlwmx.command in Resources */,
+				331D688E24CE3DF600ABDD42 /* README.md in Resources */,
 				335A742D24CE1E9C00346892 /* Main.storyboard in Resources */,
 				33927B4224CDF40700581435 /* Assets.xcassets in Resources */,
 				338FC4CA24CE05ED007CE82F /* noheliport.command in Resources */,
