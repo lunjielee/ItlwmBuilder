@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		331D688E24CE3DF600ABDD42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 331D688D24CE3DF600ABDD42 /* README.md */; };
-		335A742D24CE1E9C00346892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A742C24CE1E9C00346892 /* Main.storyboard */; };
+		333F859E24CE43F400FAE6B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333F85A024CE43F400FAE6B8 /* Main.storyboard */; };
 		338FC4CA24CE05ED007CE82F /* noheliport.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4C924CE05ED007CE82F /* noheliport.command */; };
 		338FC4CC24CE0647007CE82F /* noheliportx.command in Resources */ = {isa = PBXBuildFile; fileRef = 338FC4CB24CE0647007CE82F /* noheliportx.command */; };
 		33927B3E24CDF40600581435 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33927B3D24CDF40600581435 /* TaskViewController.swift */; };
@@ -20,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		331D688D24CE3DF600ABDD42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		335A742C24CE1E9C00346892 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		333F859F24CE43F400FAE6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333F85A224CE441400FAE6B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		338FC4C924CE05ED007CE82F /* noheliport.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = noheliport.command; sourceTree = "<group>"; };
 		338FC4CB24CE0647007CE82F /* noheliportx.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = noheliportx.command; sourceTree = "<group>"; };
 		33927B3A24CDF40600581435 /* ItlwmBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItlwmBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +73,7 @@
 				338FC4CB24CE0647007CE82F /* noheliportx.command */,
 				33927B4124CDF40700581435 /* Assets.xcassets */,
 				33927B4924CDF40700581435 /* Info.plist */,
-				335A742C24CE1E9C00346892 /* Main.storyboard */,
+				333F85A024CE43F400FAE6B8 /* Main.storyboard */,
 				33927B4A24CDF40700581435 /* itlwmbuilder.entitlements */,
 			);
 			path = ItlwmBuilder;
@@ -119,6 +120,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 				Base,
 			);
 			mainGroup = 33927B3124CDF40600581435;
@@ -140,7 +142,7 @@
 				338FC4CC24CE0647007CE82F /* noheliportx.command in Resources */,
 				33927B7324CDF73700581435 /* itlwmx.command in Resources */,
 				331D688E24CE3DF600ABDD42 /* README.md in Resources */,
-				335A742D24CE1E9C00346892 /* Main.storyboard in Resources */,
+				333F859E24CE43F400FAE6B8 /* Main.storyboard in Resources */,
 				33927B4224CDF40700581435 /* Assets.xcassets in Resources */,
 				338FC4CA24CE05ED007CE82F /* noheliport.command in Resources */,
 			);
@@ -159,6 +161,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		333F85A024CE43F400FAE6B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333F859F24CE43F400FAE6B8 /* en */,
+				333F85A224CE441400FAE6B8 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		33927B6124CDF40800581435 /* Debug */ = {
